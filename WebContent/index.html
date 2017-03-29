@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sistema Predial!</title>
+</head>
+<body>
+<h3>Sistema Predial!</h3>
+<form action="/SistemaPredialServlet" method="post">
+Razão social: <input type="text" name="razao"><br>
+CNPJ: <input type="text" name="cnpj"><br>
+Temperatura do ar: <input type="number" name="temp"><br>
+Conjunto <input type="text" name="conj"><br>
+Hora de funcionamento: <input type="time" name="horaFuncE"><br>
+Hora de fechamento: <input type="time" name="horaFuncS"><br>
+Hora ligar Ar Condicionado: <input type="time" name="horaArL"><br>
+Hora desligar Ar Condicionado: <input type="time" name="horaArD"><br>
+<input type="submit" value="Cadastrar" name="acao">
+<input type="submit" value="Alterar" name="acao">
+<input type="submit" value="Deletar" name="acao">
+<input type="submit" value="Consultar" name="acao">
+</form>	
+</body>
+</html>
